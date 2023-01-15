@@ -1,124 +1,144 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="Ejemplo de HTML5" />
-    <meta name="keywords" content="HTML5, CSS, Javascript" />
-    <title>Mayor Productividad</title>
-  </head>
-  <body>
-    <header>
-      <h1>Unetenos</h1>
-    </header>
-    <nav>
-      <a href="index.html">Inicio</a> | <a href="sobre.html">Sobre</a> |
-      <a href="servicios.html">Servicios</a> |
-      <a href="talentoDigital.html">Talento Digital</a> |
-      <a href="untenos.html">Unetenos</a> |
-      <a href="contactanos.html">Contactanos</a>
-    </nav>
-    <br />
-    <br />
-    <table>
-      <tr>
-        <td>
-          <article><img src="./img/img1.png" alt="Talentos" /></article>
-        </td>
-        <td>
-          <article>
-            <h2 style="color:red; font-family: 'sans-serif; ">
-              Hablanos de Ti: Aprendamos como Equipo hacia el camino de ser
-              Seniors
-            </h2>
-          </article>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><b>Perfil en Talento Digital</b></p>
-        </td>
-        <td>
-          <input type="text" />
-        </td>
-        <td>
-          <p><b>Profesión</b></p>
-        </td>
-        <td>
-          <input type="text" />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><b>Especialidad</b></p>
-        </td>
-        <td>
-          <input type="text" />
-        </td>
-        <td>
-          <p><b>Areas de Conocimiento</b></p>
-        </td>
-        <td>
-          <input type="text" />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><b>Dejanos tu curriculum</b></p>
-        </td>
-        <td>
-          <img src="" alt="">
-        </td>
-        <td>
-          <p><b>Cargalo desde Aqui</b></p>
-        </td>
-        <td>
-          <img src="" alt="">
-        </td>
-        <br>
-        <td>
-            <p><b>Coloca el URL de tu portafolio aqui</b></p>
-          </td>
-          <td>
-            <input type="text">
-            <input type="button" title="Enviar">
-          </td>
-      </tr>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/estilo_flexbox.css">
+		<title>Mayor Productividad</title>
+	</head>
+	<body>
+      <header style="margin-left: 30px;margin-top: 20px;margin-bottom: 20px;">
+        <h1>Unetenos</h1>
+      </header>
+      <nav class="nav">
+        <a href="index.html">Inicio</a> | <a href="sobre.html">Sobre</a> |
+        <a href="servicios.html">Servicios</a> |
+        <a href="talentoDigital.html">Talento Digital</a> |
+        <a href="unetenos.html">Unetenos</a> |
+        <a href="contactanos.html">Contactanos</a>
+      </nav>
+      <br />
+      <br />
+   <form action="">
+      <div class="contenido">
+          <div class="card">
+            <article><img src="./img/img1.png" alt="Talentos" /></article>
+          </div>
+          <div class="card">
+            <div class="textos">
+              <h2 style="text-align: left;">
+                Hablanos de Ti: Aprendamos como Equipo hacia el camino de ser
+                Seniors
+              </h2>
+            </div>
+          </div>
+        </div>    
+           
+        <div class="input-group"> 
+            <label for="perfil">Perfil en Talento Digital</label>
+            <select id="perfil">
+              <option value="abogado">Desarrollador/a Full Stack Java Trainee</option>
+              <option value="ingeniero">Desarrollador/a Full Stack JavaScript</option>
+              <option value="administrador">Desarrollador/a Full Stack Python</option>
+              <option value="tecnido">Desarrollador/a Front End Trainee</option>
+              <option value="medico">Desarrollador/a Mobile Android</option>
+              <option value="fisico">Diseñador/a UX/UI</option>
+              <option value="docente">Arquitecto/a Cloud</option>
+              <option value="otra">Analista de datos</option>
+              <option value="docente">Científico/a de datos</option>
+              <option value="otra">DevOps</option>
 
+            </select>
+                    
+            <label for="profesiones">Profesión</label>
+            <select id="profesiones">
+              <option value="abogado">Abogado</option>
+              <option value="ingeniero">Ingeniero</option>
+              <option value="administrador">Administrador</option>
+              <option value="tecnido">Tecnico</option>
+              <option value="medico">Médico</option>
+              <option value="fisico">Fisico</option>
+              <option value="docente">Docente</option>
+              <option value="otra">Otra</option>
+            </select>
+
+            <label for="especialidad">Especialidad</label>
+            <select id="especialidad">
+              <option value="abogado">Mercantil</option>
+              <option value="ing_sis">Ing.Sistemas</option>
+              <option value="ing_meca">Ing.Mecanica</option>
+              <option value="ing_ind">Ing.Industrial</option>
+              <option value="medico_vet">Med.Veterinario</option>
+              <option value="medico_cirujano">Cirujano</option>
+              <option value="docente_ba">Prof.Basica</option>
+              <option value="docente">Prof.Media</option>
+            </select>
+      </div>
+
+      <div class="input-group"> 
+            <fieldset>
+                <legend>Areas de Conocimientos:</legend>
+                <label><input type="checkbox" name="" id="" value="finanzas"> Finanzas</label>
+                <label><input type="checkbox" name="" id="" value="docrncia"> Docencia</label>
+                <label><input type="checkbox" name="" id="" value="contabilidad"> Contabilidad</label>
+                <label><input type="checkbox" name="" id="" value="prot_civil"> Proteccion Civil</label>
+                <label><input type="checkbox" name="" id="" value="attCliente"> Atencion al Cliente</label>
+                <label><input type="checkbox" name="" id="" value="telecominica">Recursos Humanos</label>
+                <label><input type="checkbox" name="" id="" value="contabilidad"> Electronica</label>
+                <label><input type="checkbox" name="" id="" value="prot_civil"> Seguros</label>
+                <label><input type="checkbox" name="" id="" value="attCliente">Banca</label>
+                <label><input type="checkbox" name="" id="" value="telecominica">Diseño Grafico</label>
+              </fieldset>
+      </div>
+          
 
 
       
-    </table>
+      <div class="input-group"> 
 
-    <footer>
-      <table
-        style="
-          background: rgba(0, 4, 255, 0.3);
-          border: 2px solid rgba(36, 3, 66, 0.3);""
-      >
-        <tr>
-          <td>
-            <address>
-              <spam style="color: rgb(4, 23, 59)"><b>Visitatanos en:</b></spam
-              ><br />
-              Mayorproductividad.com <br />
-              5 Oriente, Viña del Mar <br />
-              Chile
-            </address>
-          </td>
-          <td>
-            <address style="align-self: auto">
-              <spam style="color: rgb(4, 23, 59)"><b>Redes Sociales</b></spam>
-              <br />
-              Linkelid<br />
-              Facebook<br />
-              Twitter<br />
-              Instagram<br />
-            </address>
-          </td>
-        </tr>
-      </table>
-      Todos los derechos reservados © 2023
-      <br />
-    </footer>
+              <label for="git"> Coloca el URL de tu portafolio GIT aqui</label>
+              <input type="text" id="url"/>
+              <label for="lbl_curri"> Dejanos tu curriculum</label>
+              <button id="curriculum">Cargalo desde Aqui</button>
+
+      </div> 
+            
+      
+      <div class="input-group">
+              <label for="msg">Tienes algo que quieras comentar</label>
+              <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+      </div>
+
+      
+      <div class="row">
+              <button id="submit">Enviar</button>
+      </div>   
+           
+    </form>
+
+      
+   
+      <div class="footer">
+        <div class="col1">
+          <h3>Visitatanos en:</h3>
+          <p>	Mayorproductividad.com</p>
+          <p>5 Oriente, Viña del Mar</p>
+          <p>Chile.</p>
+        </div>
+            
+        <div class="col2">
+          <h3>Redes Sociales</h3>
+          <p>Linkelid</p>
+          <p>Facebook</p>
+          <p>Twitter</p>
+          Instagram
+        </div>
+      </div>
+ 
+      <p style="text-align: center;">Todos los derechos reservados:Jose Zamora © 2023</p>
   </body>
 </html>

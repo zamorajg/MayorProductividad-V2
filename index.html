@@ -3,60 +3,65 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/estilo.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/estilo_flexbox.css">
 		<title>Mayor Productividad</title>
 	</head>
 	<body>
-			<header>
-				<h1>Inicio</h1>
-			</header>
-			<nav>
-				<a href="index.html">Inicio</a> | <a href="sobre.html">Sobre</a>   | <a href="servicios.html">Servicios</a> | <a href="talentoDigital.html">Talento Digital</a> | <a href="unetenos.html">Unetenos</a>  | <a href="contactanos.html">Contactanos</a>
-			</nav>
-			<br>
-			<br>
-        <section class="home">
-			<div class="in-flex" >
-                <p>Imagen de Tecnologia</p>
-                <img src="./img/img1.png" style="width=50%"> 
-			</div>
-			<div class="in-flex">
-                <h3 style="color:rgb(5, 5, 168); ">Innovación Tecnológica en las diferentes areas profesionales que su empresa requiera</h3>
-                <p>Que podemos hacer por ti</p> 
-			</div>
-		</section>
-		<section class="home">
-			<p> Repositorios realizados por nuestro talento:</p>
-			<div class="in-flex">
-				<p> Link: <a href =https://github.com/vinta/awesome-python>https://github.com/vinta/awesome-python</a></p>
-				<br>
-				<p> Link: <a href =https://github.com/goldbergyoni/nodebestpractices>https://github.com/goldbergyoni/nodebestpractices</a></p>
-			</div>	
-		</section>
-	   <br>
-	   <br>
-	    
-		<footer class="home">
-			<div class="in-flex footer" style="background: rgba(0, 4, 255, 0.3); border-bottom: 2px solid rgba(36, 3, 66, 0.3) ;">
-					<address>
-						<spam style="color: rgb(4, 23, 59);"><b>Visitatanos en:</b></spam><br>
-						Mayorproductividad.com <br>
-						5 Oriente, Viña del Mar <br>
-						Chile
-					</address>
-			</div>
-			<div class="in-flex footer" style="background: rgba(0, 4, 255, 0.3);border-bottom:2px solid rgba(36, 3, 66, 0.3)  ;">		
-					<address style="align-self: auto ;">
-						<spam style="color: rgb(4, 23, 59);"><b>Redes Sociales</b></spam> <br>
-						Linkelid<br>
-						Facebook<br>
-						Twitter<br>
-						Instagram<br>
-					</address>
-			</div>
+		<header style="margin-left: 30px;margin-top: 20px;margin-bottom: 20px;">
+			<h1>Inicio</h1>
+		</header>
+		<nav class="nav">
+			<a href="index.html">Inicio</a> | <a href="sobre.html">Sobre</a>   | <a href="servicios.html">Servicios</a> | <a href="talentoDigital.html">Talento Digital</a> | <a href="unetenos.html">Unetenos</a>  | <a href="contactanos.html">Contactanos</a>
+		</nav>
+		<div class="contenedor">
+			<section class="contenido">
+				<div class="card" >
+					<img src="./img/img1.png" alt ="Imagen del equipo" width="100%" height="90%"> 
+				</div>
+				<div class="card">
+					<h2>Innovación Tecnológica en las diferentes áreas profesionales que su empresa requiera</h2>
+					<br>
+					<br>
+					<h3 style="text-align: center; color:blue"> Cuentanos que podemos hacer por ti</h3> 
+				</div>
+				<div class="card" style="text-align:right;">
+					<p> Repositorios realizados por nuestro talento:</p>
+				</div>
+				<div class="card">
+					<div class="textos">
+						<p>Link: <a href="https://github.com/jarodsmdev/Cachureando-Bootstrap.git"> https://github.com/jarodsmdev/Cachureando-Bootstrap.git</a></p>
+
+						<p> Link: <a href =https://github.com/vinta/awesome-python>https://github.com/vinta/awesome-python</a></p>
+						
+						<p> Link: <a href =https://github.com/goldbergyoni/nodebestpractices>https://github.com/goldbergyoni/nodebestpractices</a></p> 
+					</div>
+					
+				</div>	
+			
+			</section>
+		</div>	    
+				<div class="footer" >
+					<div class="col1">
+						<h3>Visitatanos en:</h3>
+						<p>	Mayorproductividad.com</p>
+						<p>5 Oriente, Viña del Mar</p>
+						<p>Chile.</p>
+					</div>
+							
+					<div class="col2">
+						<h3>Redes Sociales</h3>
+						<p>Linkelid</p>
+						<p>Facebook</p>
+						<p>Twitter</p>
+						Instagram
+					</div>
+				</div>
 		
-		</footer>
-		<p style="text-align: center;">Todos los derechos reservados © 2023</p>
+			<p style="text-align: center;">Todos los derechos reservados:José Zamora © 2023</p>
 	</body>
 </html>
 

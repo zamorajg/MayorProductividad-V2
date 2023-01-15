@@ -1,0 +1,176 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+form{
+	padding: 1.8em;
+	color:navy;
+	font-size: 1.2em;
+
+}
+
+.input-group{
+	margin: 5px;
+}
+
+.input-group > select, .input-group >input {
+	width: 100%;
+	height: 30px;
+	font-size: 1em;
+	
+}
+
+body {
+    background-color: white;
+    color: navy;
+    font-family: 'Roboto';
+}
+
+fieldset{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 5px;
+}
+
+textarea{
+	width: 100%;
+	resize: none;
+	height: 100px;
+
+}
+
+form button{
+	padding: 1em 1.5em;
+	background-color: navy;
+	box-shadow:  2px 2px 2px black;
+	color:#fff;
+	margin: 5px;
+
+}
+
+
+
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+    display: flex;
+	
+	
+	
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenido {
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+	
+	
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    width: 50%;	
+}
+
+.card2 {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    width: 25%;	
+}
+
+.card .textos {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	
+
+
+	
+}
+
+
+
+.col1 {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    width: 50%;	
+}
+
+.col2 {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    width: 50%;	
+    text-align: right;
+}
+
+.footer{
+	
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: navy;
+    color: white;
+	margin-top: 10px;
+	
+    
+}
+
+.nav{
+	padding-left: 100px;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+	.card{
+		flex-direction: column;
+	}
+
+}

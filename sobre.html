@@ -1,70 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nosotros</title>
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/estilo_grid.css">
+		<title>Mayor Productividad</title>
+	</head>
 </head>
 <body>
-    <header>
-        <h1>Sobre Nosotros</h1>
+    <header style="margin-left: 30px;margin-top: 20px;margin-bottom: 20px;">
+        <h1 style="margin: 30;">Sobre Nosotros</h1>
     </header>
-    <nav>
+    <nav class="nav">
         <a href="index.html">Inicio</a> | <a href="sobre.html">Sobre</a>   | <a href="servicios.html">Servicios</a> | <a href="talentoDigital.html">Talento Digital</a> | <a href="unetenos.html">Unetenos</a>  | <a href="contactanos.html">Contactanos</a>
     </nav>
     <br>
     <br>
-    <table>
-        <tr>
-        <td>
-            Imagen de Tecnologia
-            <article><img src="./img/img1.png"  alt ="Imagen del equipo" width="80%" height="80%"> </article>
-        </td>
-        <td>
-            <p title="Acerca de nuestra Mision" style="color:blue" style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><strong>Misión:</strong> Dar la oportunidad de empleabilidad,
-            formación y crecimiento en el área de TI, a los egresados de talento
-            digital,<br> sin ningun tipo de discriminación, mediante la constante motivació
-            e Innovación en nuevas tecnologias.Convertirnos de <br> trainers a Junior, de Juniors
-            a semisenior y de semiseniors a Senniors.
-            </p>
-            <p style="color: red;" style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><b>Visión:</b> Consolidarnos como la primera consiultora conformada profesionales
-            los egresados de talento digital</p>
-            <p style="color:blue" style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><b>Valores:</b>Recurso Humano, la responsabilidad social y constante innovación tecnológica. </p>
-        </td>
-        </tr>
-        
+    <div class="contenedor">
+        <section class="contenido">
+            <div class="card">
+                <article><img src="./img/img1.png"  alt ="Imagen del equipo" width="100%" height="100%" > </article>
+            </div>
+            <div class="card">
+                <div class="textos">
+                    <p title="Acerca de nuestra Mision" style=""><strong>Misión:</strong> Dar la oportunidad de empleabilidad,
+                    formación y crecimiento en el área de TI, a los egresados de talento
+                    digital, sin ningun tipo de discriminación, mediante la constante motivación
+                    e Innovación Tecnológica.Convertirnos de  trainers a Junior, de Juniors
+                    a semisenior y de semiseniors a Seniors.
+                    </p>
 
-    </table>
-   
-    
-    <footer>
-        <table style="background: rgba(255, 128, 0, 0.3); border: 1px solid rgba(200, 100, 0, 0.3);">
-            
-                <tr>
-                <td>
-                <address>
-                    <spam style="color: rgb(4, 23, 59);"><b>Visitatanos en:</b></spam><br>
-                    Mayorproductividad.com <br>
-                    5 Oriente, Viña del Mar <br>
-                    Chile
-                </address>
-                </td>
-                <td>
+                    <p><b>Visión: </b> Consolidarnos como la primera consiultora conformada profesionales los egresados de talento digital</p>
+
+                    <p><b>Valores: </b>Recurso Humano, la responsabilidad social y constante innovación tecnológica. </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <div class="footer">
+        <div class="col1">
+            <h3>Visitatanos en:</h3>
+            <p>	Mayorproductividad.com</p>
+            <p>5 Oriente, Viña del Mar</p>
+            <p>Chile.</p>
+        </div>
                 
-                <address style="align-self: auto ;">
-                    <spam style="color: rgb(4, 23, 59);"><b>Redes Sociales</b></spam> <br>
-                    Linkelid<br>
-                    Facebook<br>
-                    Twitter<br>
-                    Instagram<br>
-                </address>
-            </td>
-        </tr>
-    </table>
-    Todos los derechos reservados © 2023
-    </footer>
-
+        <div class="col2">
+            <h3>Redes Sociales</h3>
+            <p>Linkelid</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            Instagram
+        </div>
+    </div>
     
+    
+    <p style="text-align: center;">Todos los derechos reservados © 2023</p>
+   
 </body>
 </html>

@@ -1,0 +1,129 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: navy;
+    font-family: 'Roboto';
+}
+
+textarea{
+	width: 100%;
+	resize: none;
+	height: 100px;
+}
+
+form button{
+	padding: 1em 1.5em;
+	background-color: navy;
+	box-shadow:  2px 2px 2px black;
+	color:#fff;
+	margin: 5px;
+
+}
+
+form label{
+	font-family: 'Roboto';
+}
+
+.contenedor {
+	margin: 0%;
+	padding: 0%;
+	border: 0%;
+
+}
+
+
+
+.contenido {
+    width:90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+   
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	
+
+	
+}
+
+.card .textos {
+	height: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+	font-family: 'Arial';
+	font-size: larger;
+	
+	
+}
+
+.col1 {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 50px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    width: 50%;	
+}
+
+.col2 {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 50px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    width: 50%;	
+    text-align: right;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: navy;
+    color: white;
+	margin-top: 20px;
+	
+    
+}
+
+.nav{
+	padding-left: 100px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}
