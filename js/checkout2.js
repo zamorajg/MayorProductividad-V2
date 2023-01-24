@@ -75,6 +75,6 @@ $(document).ready(function() {
     $("#enviar").click(function(){
         var validado = $("#myForm2").valid();
         if(validado){
-           alert('Sus datos fueron enviados satisfactoriamente');
+           alert('Sus datos fueron enviados satisfactoriamentegit');
         }
      });
